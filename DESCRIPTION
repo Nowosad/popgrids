@@ -1,9 +1,30 @@
 Package: popgrids
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.3)
-License: What license is it under?
+Title: Global Dataset of Gridded Population and GDP
+Version: 0.0.1
+Authors@R: c(person("Jakub", "Nowosad", 
+    email = "nowosad.jakub@gmail.com",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0002-1057-3721")),
+    person("Space Informatics Lab", role = c("cph"))
+    )
+Description: This dataset consists 0.5 × 0.5 degree grids of: 
+    (1) Global population and GDP estimations for years 1980-2010 created by
+    downscaling actual populations and GDPs by country, and
+    (2) Global population and GDP projections for years 2020-2100 created by
+    downscaling projected populations and GDPs under 
+    three shared socioeconomic pathways (SSP): SSP1; SSP2; and SSP3.
+    The dataset is modified Global dataset of gridded population and GDP scenarios, 
+    version 3 (<http://www.cger.nies.go.jp/gcp/population-and-gdp.html>). 
+    While the original dataset is a shapefile of 0.5 × 0.5 degree grids masked by countries, 
+    the new one contains a regular grid in form of raster objects.
+Depends: R (>= 3.3.0)
+Imports:
+    sp,
+    raster
+License: CC0
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/Nowosad/popgrids
+BugReports: https://github.com/Nowosad/popgrids/issues
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
