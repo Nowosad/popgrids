@@ -1,0 +1,13 @@
+language: r
+
+warnings_are_errors: true
+
+r:
+  - release
+  - devel
+
+cache: packages
+
+sudo: required
+
+dist: trusty
