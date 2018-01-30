@@ -3,7 +3,7 @@
 popgrids
 ========
 
-[![Build Status](https://travis-ci.org/Nowosad/popgrids.png?branch=master)](https://travis-ci.org/Nowosad/popgrids)
+[![Build Status](https://travis-ci.org/Nowosad/popgrids.png?branch=master)](https://travis-ci.org/Nowosad/popgrids) [![DOI](https://zenodo.org/badge/119410715.svg)](https://zenodo.org/badge/latestdoi/119410715)
 
 This dataset consists 0.5 × 0.5 degree grids of:
 
@@ -33,7 +33,7 @@ library(sp)
 library(raster)
 ```
 
-### Population estimation for 2010
+#### Population estimation for 2010
 
 ``` r
 plot(pop_grid, "p_2010")
@@ -41,7 +41,7 @@ plot(pop_grid, "p_2010")
 
 ![](man/figures/README-example1-1.png)
 
-### GDPs projections for 2100 (pathway SSP3)
+#### GDPs projections for 2100 (pathway SSP3)
 
 ``` r
 plot(gdp_grid, "g3_2100")

@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 # popgrids
 
 [![Build Status](https://travis-ci.org/Nowosad/popgrids.png?branch=master)](https://travis-ci.org/Nowosad/popgrids)
+[![DOI](https://zenodo.org/badge/119410715.svg)](https://zenodo.org/badge/latestdoi/119410715)
 
 This dataset consists 0.5 × 0.5 degree grids of: 
 
