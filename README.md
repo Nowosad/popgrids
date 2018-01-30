@@ -3,7 +3,7 @@
 popgrids
 ========
 
-[![Build Status](https://travis-ci.org/Nowosad/popgrids.png?branch=master)](https://travis-ci.org/Nowosad/popgrids) [![DOI](https://zenodo.org/badge/119410715.svg)](https://zenodo.org/badge/latestdoi/119410715)
+[![Build Status](https://travis-ci.org/Nowosad/popgrids.png?branch=master)](https://travis-ci.org/Nowosad/popgrids) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1162868.svg)](https://doi.org/10.5281/zenodo.1162868)
 
 This dataset consists 0.5 × 0.5 degree grids of:
 
