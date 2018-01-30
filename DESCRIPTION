@@ -1,6 +1,6 @@
 Package: popgrids
 Title: Global Dataset of Gridded Population and GDP
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(person("Jakub", "Nowosad", 
     email = "nowosad.jakub@gmail.com",
     role = c("aut", "cre"),
