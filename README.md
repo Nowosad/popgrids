@@ -48,3 +48,9 @@ plot(gdp_grid, "g3_2100")
 ```
 
 ![](man/figures/README-example2-1.png)
+
+References
+----------
+
+-   Original data source: <http://www.cger.nies.go.jp/gcp/population-and-gdp.html>
+-   Murakami, D. and Yamagata, Y. (2016) Estimation of gridded population and GDP scenarios with spatially explicit statistical downscaling, ArXiv, 1610.09041, URL: <https://arxiv.org/abs/1610.09041>.
